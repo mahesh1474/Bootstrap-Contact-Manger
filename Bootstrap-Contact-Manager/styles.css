@@ -1,0 +1,28 @@
+#home-page{
+    background: hsl(267, 53%, 88%);
+}
+.text-purple{
+    color : #6919ca !important;
+}
+.bg-purple{
+    color : #6919ca !important;
+}
+#add-contact{
+    background-color: #d5f4e5;
+}
+#edit-contact{
+    background-color: #cddbef;
+}
+#view-contact{
+    background-color: #f0e2b7;
+}
+#login{
+    background-color: #cae2ec;
+}
+.btn-login{
+    background-color: #007fb1 !important;
+    color : white !important;
+}
+.text-login{
+    color : #007fb1
+}

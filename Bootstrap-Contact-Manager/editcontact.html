@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome/fontawesome-free-6.4.2-web/css/all.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.bundle.js" async></script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Edit Contact</title>
+</head>
+<body id="edit-contact">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+        <div class="container">
+            <a href="./home.html" class="navbar-brand"> <i class="fa fa-users text-purple"></i> Contact <span class="text-purple">Manager</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">
+                            <i class="fa fa-sign-in-alt text-success"></i>
+                            LogIn
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">
+                            <i class="fa fa-sign-out-alt text-danger"></i>
+                            Register
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Ends -->
+    <!-- Intro Section Starts -->
+    <section class="p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="h3 text-primary">Edit Contact</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ex et enim laboriosam! Architecto atque sunt consequuntur eveniet hic at itaque, mollitia quos, deserunt nulla asperiores reprehenderit culpa sint quia modi fugit autem iusto magni? Nobis quia velit earum eveniet.</p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-sm-5">
+                    <form action="">
+                        <div class="mb-2">
+                            <input type="text" class="form-control" placeholder="Name" required>
+                        </div>
+                        <div class="mb-2">
+                            <input type="text" class="form-control" placeholder="Photo URL" required>
+                        </div>
+                        <div class="mb-2">
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="mb-2">
+                            <input type="number" class="form-control" placeholder="Mobile" required>
+                        </div>
+                        <div class="mb-2">
+                            <input type="text" class="form-control" placeholder="Company" required>
+                        </div>
+                        <div class="mb-2">
+                            <input type="text" class="form-control" placeholder="Title" required>
+                        </div>
+                        <div class="mb-2">
+                            <select class="form-control" required>
+                                <option value="">Select a Group</option>
+                                <option value="">Family</option>
+                                <option value="">Colleague</option>
+                                <option value="">Friends</option>
+                                <option value="">Social</option>
+                                <option value="">Service</option>
+                            </select>
+                        </div>
+                        <div class="mb-2">
+                            <input type="submit" class="btn btn-primary" value="Update">
+                            <a href="./home.html" class="btn btn-dark"> Cancel</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
